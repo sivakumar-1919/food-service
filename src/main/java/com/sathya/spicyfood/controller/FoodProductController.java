@@ -19,7 +19,7 @@ import com.sathya.spicyfood.service.FoodProductService;
 
 @RestController
 @RequestMapping("/products")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = { "http://localhost:5173","https://react-spicy-food.vercel.app/"} )
 public class FoodProductController {
      
 	@Autowired
