@@ -9,6 +9,9 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class FoodProductDto {
 
+	
+	private Long id;   
+	   
 	private String name;
 
     private Double price;

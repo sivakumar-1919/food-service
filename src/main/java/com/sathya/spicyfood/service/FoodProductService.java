@@ -64,6 +64,7 @@ public class FoodProductService {
         FoodProductDto dto =
                 new FoodProductDto();
 
+        dto.setId(foodProduct.getId());   
         dto.setName(foodProduct.getName());
         dto.setPrice(foodProduct.getPrice());
         dto.setDescription(foodProduct.getDescription());
